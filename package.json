@@ -1,0 +1,19 @@
+{
+  "name": "preview-card-component-main",
+  "version": "1.0.0",
+  "description": "![Design preview for the NFT preview card component coding challenge](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tailwindcss -o ./css/tailwind.css -w",
+    "pro": "tailwindcss -o ./css/tailwind.css --minify",
+    "build": "tailwindcss -i ./src/tailwind.css -o ./css/tailwind.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.3.11",
+    "tailwindcss": "^2.2.19"
+  }
+}
